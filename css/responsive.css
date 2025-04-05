@@ -1,84 +1,215 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
   body {
-    display: grid;
-    flex-direction: column;
+    max-width: 100%;
+  }
+  .content-portifolio {
     width: 100%;
   }
+  header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 20px;
+    flex: 100%;
+  }
   header nav ul {
-    justify-content: center;
+    flex: 100%;
+  }
+  header nav ul .svg {
+    display: none;
   }
   main .sectio-description {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    height: 100vh;
+    width: 100%;
+    height: 110vh;
+    margin-top: 20vh;
     justify-content: center;
     align-items: center;
-    justify-self: center;
   }
   main .sectio-description .image {
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
+    margin-left: 0;
     width: 90%;
+  }
+  main .sectio-description .image img {
+    width: 80%;
+    height: 100%;
   }
   main .sectio-description .description {
     width: 100%;
-    padding: 5px;
+  }
+  .description h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .description h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .description p {
+    font-size: 16px;
+    padding: 0 2%;
+    text-align: center;
   }
   main .Sobre-content {
-    width: 80%;
-    height: 40vh;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20vh;
+    margin-left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  main .Sobre-content .sobre-mim h3 {
+    font-size: 30px;
+  }
+  main .Sobre-content .sobre-mim p {
+    font-size: 16px;
+  }
+  main .Sobre-content .objetivo-content h4 {
+    font-size: 20px;
+  }
+  main .Sobre-content .objetivo-content p {
+    font-size: 16px;
+  }
+
+  .projetos .projetos-card .card {
+    width: 100%;
+    height: 50vh;
+  }
+  .projetos .projetos-card .card h4 {
+    font-size: 20px;
+  }
+  .projetos .projetos-card .card p {
+    font-size: 12px;
+    padding: 0 5%;
+    height: 16vh;
+  }
+  .projetos .projetos-card .card a {
+    font-size: 12px;
   }
   main .projetos {
-    width: 80%;
-    height: 70vh;
-    display: grid;
-    grid-template-columns: auto;
+    margin: 20vh 0 50vh 0;
+  }
+  main .projetos h3 {
+    font-size: 30px;
   }
 
   main .contato {
-    width: 90%;
-    height: 80vh;
+    width: 100%;
+    height: 200vh;
     justify-self: center;
   }
-  main .contato .form-contato form {
-    width: 100%;
-    height: 60vh;
-    margin-bottom: 50vh;
+  main .contato h3 {
+    font-size: 30px;
   }
-  form input {
+  main .contato p {
+    font-size: 22px;
+  }
+  main .contato .form-contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  }
+  main .contato .form-contato form {
+    max-width: 100%;
+    height: 100vh;
+    margin-bottom: 0;
+    /* margin-bottom: 0vh; */
+  }
+  main .contato .form-contato form h4 {
+    font-size: 25px;
+  }
+  form label {
     font-size: 16px;
   }
   form textarea {
     font-size: 16px;
   }
   main .contato .form-contato form #name {
-    width: 700px;
+    max-width: 80%;
+    height: 5vh;
+    margin: 0;
   }
   main .contato .form-contato form #email {
-    width: 690px;
+    max-width: 80%;
+    height: 5vh;
+    margin: 0;
   }
   main .contato .form-contato form #assunto {
-    width: 700px;
+    max-width: 80%;
+    height: 5vh;
+    margin: 0;
   }
   main .contato .form-contato form #message {
-    width: 800px;
+    max-width: 80%;
+    height: 5vh;
+    margin: 0;
   }
-  form button {
-    width: 140px;
+  main .contato .form-contato form button {
+    width: 10vh;
+    position: relative;
+    right: 100vh;
   }
 
   footer {
-    height: 50vh;
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+  }
+  footer .informacao h3 {
+    font-size: 20px;
+    max-width: 200px;
+  }
+
+  footer .informacao span {
+    font-size: 16px;
+    text-align: center;
   }
   footer .informacao p {
-    width: 400px;
+    font-size: 16px;
+    min-width: 0;
+    max-width: 200px;
+    height: 20vh;
+  }
+
+  footer .social h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  footer .social ul {
+    font-size: 16px;
+  }
+
+  footer .direitos {
+    margin: 0;
+    font-size: 12px;
+    max-width: 200px;
+    justify-self: center;
+    left: 0;
+    height: 20vh;
+  }
+
+  .whatsApp {
+    width: 40px;
   }
 }
 
-
 /* Desktop*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   body {
     width: 105vh;
   }
@@ -98,33 +229,33 @@
     height: 60vh;
   }
 
-  main .contato{
+  main .contato {
     width: 90%;
   }
-  main .contato .form-contato form{
+  main .contato .form-contato form {
     width: 90vh;
   }
-  main .contato .form-contato form #name{
+  main .contato .form-contato form #name {
     width: 100vh;
     margin-left: 2%;
   }
-  main .contato .form-contato form #email{
+  main .contato .form-contato form #email {
     width: 82vh;
     margin-left: 2%;
   }
-  main .contato .form-contato form #assunto{
+  main .contato .form-contato form #assunto {
     width: 82vh;
     margin-left: 2%;
   }
-  main .contato .form-contato form #message{
+  main .contato .form-contato form #message {
     width: 82vh;
     margin-left: 2%;
   }
-  form button{
+  form button {
     left: 75%;
   }
 
-  footer .informacao p{
+  footer .informacao p {
     width: 620px;
   }
 }
