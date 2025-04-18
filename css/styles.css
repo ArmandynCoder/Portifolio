@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: var(--preto-fosco);
+  background-color: var(--preto-fosco); 
   color: white;
 }::-webkit-scrollbar{
   display: none;
@@ -164,21 +164,6 @@ main .Sobre-content .sobre-mim h3{
   font-size: 32px;
 }
 main .Sobre-content .sobre-mim p{
-  font-family: "Urbanist", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 20px;
-  margin-left: 27px;
-  margin-top: 25px;
-}
-main .Sobre-content .objetivo-content h4{
-  font-family: "Urbanist", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 24px;
-  margin-top: 25px;
-}
-main .Sobre-content .objetivo-content p{
   font-family: "Urbanist", sans-serif;
   font-weight: 300;
   font-style: normal;
