@@ -76,28 +76,13 @@ main section .image{
   border-bottom-right-radius: 55%;
   object-fit:cover;
 
-  /* opacity: 0;
-  transform: translateX(-50px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out; */
 }
-/* .img-element.visivel{
-  opacity: 1;
-  transform: translateX(0px);
-} */
 
 .description{
   width: 870px;
   justify-self: center;
   align-self: center;
-
-  /* opacity: 0;
-  transform: translateX(50px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out; */
 }
-/* .description.visivel{
-  opacity: 1;
-  transform: translateX(0px);
-} */
 
 .description h2{
   font-family: "Urbanist", sans-serif;
@@ -148,14 +133,7 @@ main .Sobre-content{
   align-content: center;
   border-top: var(--orangev) 2px solid;
 
-  /* opacity: 0;
-  transform: translateX(-50px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out; */
 }
-/* .Sobre-content.visivel{
-  opacity: 1;
-  transform: translateX(0);
-} */
 
 main .Sobre-content .sobre-mim h3{
   font-family: "Urbanist", sans-serif;
@@ -177,16 +155,8 @@ main .projetos{
   width: 1330px;
   height: 641px;
   justify-self: center;
-
-  /* opacity: 0;
-  transform: translateX(-50px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-  border-top: var(--orangev) solid 2px; */
+  border-top: var(--orangev) solid 2px; 
 }
-/* .projetos.visivel{
-  opacity: 1;
-  transform: translateX(0);
-} */
 main .projetos h3{
   margin-top: 20px;
   flex: 100%;
@@ -266,14 +236,7 @@ main .contato{
   height: 820px;
   justify-self: center;
 
-  /* opacity: 0;
-  transform: translateX(-50px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out; */
 }
-/* .contato.visivel{
-  opacity: 1;
-  transform: translate(0);
-} */
 main .contato h3{
   font-family: "Urbanist", sans-serif;
   font-weight: 300;
@@ -333,7 +296,6 @@ main .contato .form-contato form #email{
   height: 48px;
 }
 main .contato .form-contato form #assunto{
-  /* flex: 70%; */
   width: 1138px;
   height: 48px;
 }
@@ -437,8 +399,8 @@ footer .direitos{
   opacity: 0.5;
 }
 
-/* .whatsApp{
+.whatsApp{
   position: fixed;
   bottom: 150px;
   right: 20px;
-} */
+}
